@@ -26,5 +26,14 @@ public class OperadoresAritimeticos {
         double aleatorio = Math.random();
         int n = (int) (15 + aleatorio * (50 - 15));
         System.out.println(aleatorio);
+
+        //CASTING
+        int a, b;
+        float result;
+
+        a = 5;
+        b = 2;
+        result = (float) a / b;
+        System.out.println(result);
     }
 }
