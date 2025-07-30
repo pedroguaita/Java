@@ -37,3 +37,13 @@ public class OperadoresAritimeticos {
         System.out.println(result);
     }
 }
+
+/*funções matemáticas com Java
+ *  A = Math.pow(x, y) -> Potencia.
+ *  A = Math.sqrt(x);  -> raiz quadrada.
+ *  A = Math.abs(x);   -> Valor absoluto 
+ * 
+ *  delta = Math.pow(b, 2.0) - 4 * a * c;
+ *  x1 = ((-b + Math.sqrt(delta)) / (2 * a);
+ *  x2 = ((-b - Math.sqrt(delta) / (2 * a);
+ */
