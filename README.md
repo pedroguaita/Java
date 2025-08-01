@@ -9,3 +9,4 @@ Repositório criado para armazenar exercícios e conceitos aprendidos em meus es
 - Tipos primitivos
 - Operadores aritméticos
 - Entrada de dados com `Scanner`
+- Condicionais
