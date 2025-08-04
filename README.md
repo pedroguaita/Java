@@ -11,3 +11,4 @@ Repositório criado para armazenar exercícios e conceitos aprendidos em meus es
 - Entrada de dados com `Scanner`
 - Condicionais
 - Estruturas de Repetição
+- Funções
