@@ -20,14 +20,14 @@ public class DescontoInteligente {
         if(desconto < 0 || desconto > 100){
             System.out.println("Desconto invalido");
         }
-        // TODO: Calcule o valor final do produto:
-        valorFinal = valorOriginal - (valorOriginal * desconto)/100;
+        else{
+            // TODO: Calcule o valor final do produto:
+            valorFinal = valorOriginal - (valorOriginal * desconto)/100;
 
-        // Formata e exibe o valor com duas casas decimais
-        DecimalFormat df = new DecimalFormat("0.00");
-        System.out.println(df.format(valorFinal));
-
+            // Formata e exibe o valor com duas casas decimais
+            DecimalFormat df = new DecimalFormat("0.00");
+            System.out.println(df.format(valorFinal));
+        }
         scanner.close();
     }
-
 }
