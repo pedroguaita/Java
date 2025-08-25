@@ -7,6 +7,10 @@ public class ObjectProduct {
         public double preco;
         public int quantidade;
 
+        //Construtor padrão
+        public ObjectProduct(){
+        }
+
         //Construtor
         public ObjectProduct(String nome, double preco, int quantidade){
             this.nome = nome;
