@@ -7,10 +7,10 @@ public class Account {
     private double balance;
 
     //CONSTRUTOR
-    public Account(int number, String holder, double balance){
+    public Account(int number, String holder, double initialDeposit){
         this.number = number;
         this.holder = holder;
-        this.balance = balance;
+        deposit(initialDeposit);
     }
     //CONSTRUTOR
     public Account(int number, String holder){
@@ -36,25 +36,25 @@ public class Account {
     }
 
     //METHODS
-    public void saque(double value){
-        balance -= value - 5;
+    public void withdraw(double value){
+        balance -= value + 5;
     }
 
-    public void deposit(double value){
-        balance += value;
+    public void deposit(double amount){
+        balance += amount;
     }
 
-    public double saldo(){
+    public double balance(){
         return balance;
     }
 
     public String toString(){
-        return "Account"
+        return "Account: "
                 + number
-                + " ,Holder: "
+                + ", Holder: "
                 + holder
                 + ", Balance: $"
-                + balance;
+                + String.format("%.2f", balance);
 
     }
 }
