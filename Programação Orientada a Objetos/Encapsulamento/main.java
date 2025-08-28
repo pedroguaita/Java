@@ -1,4 +1,4 @@
-package encapsulamento.main;
+    package encapsulamento.main;
 
 import encapsulamento.objects.Product;
 import java.util.Scanner;
@@ -8,6 +8,7 @@ public class ProductMain {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Digite as informações do produto");
+
         System.out.print("Nome: ");
         String nome = sc.nextLine();
 
@@ -18,7 +19,9 @@ public class ProductMain {
 
         product.setName("Computer");
         System.out.println("Updated name: " + product.getName());
-
+        product.setPrice(1200.00);
+        System.out.println("Updated price: " + product.getPrice());
+        
         System.out.println("Informações digitadas: " + product);
 
         System.out.println("\nEntre com a quantidade do produto a ser adicionada ao estoque");
